@@ -1,0 +1,1058 @@
+
+@keyframes backgroundanimation {
+    0%   {
+        background-color: black;
+        width: 0%;
+        height: 100vh;
+        overflow: hidden;
+        font-size: 25vh;
+        text-align: center;
+        color: white;
+        align-self: center;
+        justify-content:center; 
+        line-height: normal;
+        font-family: Arial;
+        overflow: hidden;
+        opacity: 1;
+        margin-top: -1%;
+    }
+    75% {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        font-size: 25vh;
+        text-align: center;
+        color: white;
+        align-self: center;
+        justify-content:center; 
+        line-height: normal;
+        font-family: Arial;
+        overflow: hidden;
+        opacity: 1;
+        margin-top: -1%;
+        
+    }
+    100% {
+        background-color: black;
+        width: 0%;
+        height: 100vh;
+        overflow: hidden;
+        font-size: 25vh;
+        text-align: center;
+        color: white;
+        align-self: center;
+        justify-content:center; 
+        line-height: normal;
+        font-family: Arial;
+        overflow: hidden;
+        opacity: 1;
+        margin-top: -1%;
+
+    }
+}
+
+
+.profile-card{
+    width: 30vw;
+    height: 45vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: black;
+    margin: 3vh;
+    padding: 10px;
+    margin-top: 3vh;   
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.smallblackcardone {
+    width: 20vw;
+    height: 45vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(20, 20, 20);
+    margin: 1vh;
+    margin-top: 3vh;
+    color: white;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+.smallwhitecardone {
+    width: 20vw;
+    height: 45vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: #dfdada;
+    margin: 1vh;
+    margin-top: 3vh;
+    color: black;
+    grid-row: 1; 
+    grid-column: 2;
+}
+
+.smallerwhitecardone {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: white;
+    margin: 1vh;
+    margin-top: 3vh;
+    padding: 10px;
+    color: black;
+}
+
+.smallerwhitecardtwo {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: #D2D2D2;
+    margin: 1vh;
+    margin-top: 3vh;
+    padding: 10px;
+    color: black;
+}
+
+.smallerwhitecardthree {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    margin: 1vh;
+    margin-top: 3vh;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.smallerblackcardone {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(30, 29, 29);
+    margin: 1vh;
+    margin-top: 3vh;
+    padding: 10px;
+    color: white;
+}
+
+.smallerblackcardtwo {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    margin: 1vh;
+    margin-top: 3vh;
+    padding: 10px;
+    color: white;
+    
+}
+
+.horizontalcardone {
+    width: 20vw;
+    height: 60vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #D2D2D2;
+    color: black;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    align-items: center;
+}
+
+.stackedone {
+    width: 10vw;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    margin: 1vh;
+    color: rgb(255, 255, 255);
+    grid-row: 1;
+    grid-column: 2;
+}
+.stackedtwo {
+    width: 10vw;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: rgb(37, 37, 37);
+    margin: 1vh;
+    color: rgb(255, 255, 255);
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.rowtwocontainer{
+    border-radius: 20px;
+    width: 75vw;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:auto;
+    background: transparent;
+    margin: 1vh;
+    grid-row: 2; 
+    grid-column: 1/4;
+}
+
+.bigcardrowthree {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    background: rgb(255, 255, 255);
+    color: black;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.bigcardrowthree::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.rowthreeleftcontainer{
+    border-radius: 20px;
+    width: 35vw;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:auto;
+    background: transparent;
+    margin: 1vh;
+    grid-row: 3; 
+    grid-column: 1/2;
+}
+
+.rowthreecontainer{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+    background: transparent;
+    margin: 1vh;
+    grid-row: 3; 
+    grid-column: 1/4;
+}
+
+.rowthreeleftgridcontainer{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5px; 
+    row-gap: 5px;
+}
+.navcard {
+    border-radius: 20px;
+    width: 20vw;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: white;
+    margin: 1vh;
+    margin-top: 3vh;
+    grid-row: 1 / 4; 
+    grid-column: 4
+}
+
+.profile-card:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallblackcardone:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallwhitecardone:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallerblackcardone:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+
+.smallerwhitecardone:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallerblackcardtwo:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallerwhitecardtwo:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.smallerwhitecardthree:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.stackedone:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.stackedtwo:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+.card-grid {
+    /* Adjust as needed */
+    width: 75%;
+    max-width: 100vw;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+nav{
+    position: top;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 10px 10px 10px;
+    background: white;
+    backface-visibility: hidden;
+    text-align: center;
+
+}
+
+.nav-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 5px;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-card:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;
+}
+
+header {
+    font-size: 70PX;
+}
+
+
+
+body {
+    background-image: url("/css/bghome.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+
+}
+.slide-in{
+    animation-name: backgroundanimation;
+    background-color: black;
+    animation-duration: 7s; 
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-size: cover;
+    z-index: 999;
+    position: fixed;
+}
+
+.textintro { 
+  animation-name: backgroundanimation;
+  /* Make the text move in sync with the background */
+  opacity: 0;
+  font-size: 0px;
+}
+
+.footer-bg img{
+    max-width: 100%;
+    text-align: justify;
+    color: white;
+    height: 15vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+ /* Add this ID to a section or something you want to change the background-color */
+ #social-section {
+    padding:60px 0;
+    -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  }
+  
+  /* Button Styles */
+  .social-container a {
+  display: block;
+  width:200px;
+  line-height: 40px;
+  border: 2px solid rgba(170, 13, 107, 0.826);
+  color: rgba(36, 4, 25, 0.984);
+  margin:20px 0;
+  text-decoration: none;
+  text-align:center;
+  }
+  
+  .social-container a::before {
+    background-color: transparent;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .social-container a i {
+  margin-right: 15px;   
+  }
+  
+  .social-container a:hover  {
+  border: 1px solid rgba(53, 12, 12, 0.823);
+  color: rgba(50, 16, 16, 0.778);
+  }
+  
+  /* Hover background colors */
+  .twitter:hover::before {
+    background-color: #00aced;
+  }
+  .facebook:hover::before {
+    background-color: #3b5998;
+  }
+  .pinterest:hover::before {
+    background-color: #cc2127;
+  }
+  .googleplus:hover::before {
+    background-color: #dd4b39;
+  }
+  .linkedin:hover::before {
+    background-color: #242d81;
+  }
+  .github:hover::before {
+    background-color: #141313;
+  }
+  
+  .social-container a,
+  .social-container a::before {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -ms-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;}
+
+  
+  .gallery{
+        width: 150%;
+        height: 100vh;
+        max-width: 100vw;
+        max-height: 100vh;
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 5px;
+        padding: 10px;
+        margin: 10px;
+  }
+
+  .gallery img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.popup {
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.4
+    );
+    display: none;
+}
+
+.popup ::-webkit-scrollbar {
+    display: none;
+}
+
+.popup-content {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 25px;
+    width: 60%;
+    font-weight: bolder;
+    overflow: hidden;
+    background-color: rgb(250, 226, 230); 
+}
+
+.popup-content2 {
+    margin: 20px auto ;
+    padding: 10px;
+    border-radius: 25px;
+    width: 60%;
+    font-weight: bolder;
+    overflow: scroll;
+    background-color: rgb(250, 226, 230); 
+    background-image: url(AboutMebg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+
+.popup-image{
+    justify-content: center; 
+    align-content: center; 
+    align-items: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup-content button, .popup-content2 button {
+    display: block;
+    background-color: #FF5BB9;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+    border-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 5;
+}
+
+.popup-content2 button:hover, .popup-content button:hover{
+    transform: scale(0.9);
+    animation-duration: 10ms;}
+
+.show {
+    display: block;
+}
+
+skills-container {
+    margin: 40px auto;
+    display: grid;
+    justify-items: center;
+    width: 400px;
+    background: #ffffff;
+}
+
+.skills {
+    box-shadow: 0px 0px 10px 1px rgba(240, 240, 240, 1);
+    padding: 20px;
+}
+
+.skills-usage {
+    display: grid;
+    justify-items: center;
+}
+
+.skills-usage ul {
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+.skills-usage ul li p {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.skills-heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 3px;
+}
+
+.skills-heading p,
+.skills-usage h1 {
+    font-family: var(--body-font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skills-heading p {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.skills-heading img {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    height: 30px; 
+    width: 50px;
+}
+
+
+/* Loading Bar Component */
+
+.bar-bg {
+    background: #232E2F;
+    max-width: 300px;
+    width: 15vw;
+    height: 6px;
+}
+
+.bar-bg-inner-about-python {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 70%;
+    height: 6px;
+    animation: bar-bg-inner-about-python 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.bar-bg-inner-about-css3 {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 85%;
+    height: 6px;
+    animation: bar-bg-inner-about-css3 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-css3 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+.bar-bg-inner-about-azure1 {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 80%;
+    height: 6px;
+    animation: bar-bg-inner-about-azure1 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-azure1 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+.bar-bg-inner-about-azure2 {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 60%;
+    height: 6px;
+    animation: bar-bg-inner-about-azure2 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-azure2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.bar-bg-inner-about-javascript {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 30%;
+    height: 6px;
+    animation: bar-bg-inner-about-javascript 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.bar-bg-inner-about-java {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 60%;
+    height: 6px;
+    animation: bar-bg-inner-about-java 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.bar-bg-inner-about-CPP {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 50%;
+    height: 6px;
+    animation: bar-bg-inner-about-CPP 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-CPP {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.bar-bg-inner-about-GenAI {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 60%;
+    height: 6px;
+    animation: bar-bg-inner-about-GenAI 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-GenAI {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.bar-bg-inner-about-git {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 40%;
+    height: 6px;
+    animation: bar-bg-inner-about-git 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-git {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+.bar-bg-inner-about-AI {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 60%;
+    height: 6px;
+    animation: bar-bg-inner-about-AI 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-AI {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.bar-bg-inner-about-ML {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 10%;
+    height: 6px;
+    animation: bar-bg-inner-about-ML 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-ML {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 10%;
+    }
+}
+
+.bar-bg-inner-about-Vertex {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 70%;
+    height: 6px;
+    animation: bar-bg-inner-about-Vertex 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-Vertex {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.bar-bg-inner-about-GC {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 70%;
+    height: 6px;
+    animation: bar-bg-inner-about-GC 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-GC {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.bar-bg-inner-about-AWS {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 30%;
+    height: 6px;
+    animation: bar-bg-inner-about-AWS 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-AWS {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.bar-bg-inner-about-SQL {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 70%;
+    height: 6px;
+    animation: bar-bg-inner-about-SQL 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-SQL {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.bar-bg-inner-about-dsa {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 70%;
+    height: 6px;
+    animation: bar-bg-inner-about-dsa 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-dsa {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+.bar-bg-inner-about-uml {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 40%;
+    height: 6px;
+    animation: bar-bg-inner-about-uml 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-uml {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+.bar-bg-inner-about-uiux {
+    background: #FF5BB9;
+    max-width: 300px;
+    width: 50%;
+    height: 6px;
+    animation: bar-bg-inner-about-uiux 4s ease-out 0s;
+}
+
+@keyframes bar-bg-inner-about-uiux {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
